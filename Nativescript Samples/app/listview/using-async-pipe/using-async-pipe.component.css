@@ -1,0 +1,19 @@
+ListView {
+    font-size: 15;
+    padding: 10;
+}
+
+.odd { 
+    vertical-align: center;
+    padding-left: 15;
+}
+
+.even {
+    color: #0099CC;
+    vertical-align: center;
+    padding-left: 15;
+}
+
+.label-item {
+    vertical-align: center;
+}

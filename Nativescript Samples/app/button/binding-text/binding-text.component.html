@@ -1,0 +1,10 @@
+<StackLayout exampleTitle toggleNavButton>
+  <StackLayout margin="5"  class="example-container">
+    <Label text="Modify button text " margin-left="15"></Label>
+    <TextField [(ngModel)]="content"></TextField>
+
+    <!-- >> button-binding-text-html -->
+    <Button id="button" [text]="content"></Button>
+    <!-- << button-binding-text-html -->
+  </StackLayout>
+</StackLayout>

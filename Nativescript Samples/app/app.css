@@ -1,156 +1,62 @@
-.km-icon {
-    font-family: 'kendoui';
-    vertical-align: center;
-    horizontal-align: center;
-}
-
-page {
-    background-color: #fff;
-}
-
-button {
-    horizontal-align: stretch;
-}
-
-image,
-activityindicator {
-    horizontal-align: center;
-    vertical-align: center;
-}
-
-label,
-textfield,
-searchbar,
-switch {
-    vertical-align: center;
-}
-
-switch {
-    horizontal-align: right;
-}
-
-.form-item {
-    padding: 0 12;
-}
-
-.form-label {
-    margin-left: 12;
-}
-
-.form-field {
-    margin: 6 12 6 0;
-}
-
-.form-buttons {
-    padding: 0 6;
-}
-
-.form-link {
-    horizontal-align: center;
-    font-size: 18;
-    margin-top: 10;
-}
-
-.form-item-border {
-    background-color: #ccc;
-    vertical-align: bottom;
-    height: 1;
-}
-
-.ios-form-button {
-    margin: 12 6;
-}
+﻿@import url("~/platform.css");
 
 .title {
-    font-size: 30;
-    horizontal-align: center;
+    font-size: 16;
     margin: 20;
 }
 
 .message {
     font-size: 20;
     color: #284848;
-    horizontal-align: center;
-}
-
-.padded-label {
-    padding: 0 12;
-}
-
-.padded-label-stack {
-    padding: 12;
-}
-
-.title-label {
-    padding: 0 0 12 0;
-    font-weight: bold;
-}
-
-.about-image {
-    horizontal-align: left;
-    vertical-align: top;
-    height: 100;
-    margin-right: 10;
-}
-
-.list-item {
-    padding: 10 16;
-}
-
-.list-icon {
-    width: 36;
     text-align: center;
+    margin: 0 20;
 }
 
-.h1 {
-    font-size: 32;
+.label1 {
+    font-size: 15;
+    background-color: #0099CC;
+    margin: 2;
 }
 
-.h2 {
-    font-size: 26;
+.label2 {
+    font-size: 15;
+    background-color: #CCFFFF;
+    margin: 2;
 }
 
-.h3 {
-    font-size: 20;
+.label3 {
+    font-size: 15;
+    background-color: #8C489F;
+    margin: 2;
 }
 
-.h4 {
+.item {
+    text-align: left;
+    vertical-align: center;
     font-size: 16;
+    color:#404040;
+    padding-left: 15;
 }
 
-.h5 {
-    font-size: 12;
-}
-
-.h6 {
-    font-size: 8;
-}
-
-
-/*Alignment*/
-
-.image-field {
-    height: 50;
+.label-item {
     vertical-align: center;
 }
 
-.alignment-left {
-    horizontal-align: left;
+SearchBar {
+    font-size: 13;
+    padding: 15;
 }
 
-.alignment-center {
-    horizontal-align: center;
+.text-field-font-serif{
+   font-family: 'RobotoSlab-Regular';
+   font-size: 20;
+}
+.text-field-font-sans-serif{
+   font-family: 'Roboto-Medium', sans-serif;
+   font-size: 20;
 }
 
-.alignment-right {
-    horizontal-align: right;
+.text-field-font-monospace{
+   font-family: 'RobotoMono-Medium', monospace;
+   font-size: 20;
 }
-
-
-/* START_CUSTOM_CODE_nativeScriptApp */
-
-
-/* Add custom code here. For more information about custom code, see http://docs.telerik.com/platform/screenbuilder/troubleshooting/how-to-keep-custom-code-changes */
-
-
-/* END_CUSTOM_CODE_nativeScriptApp */
