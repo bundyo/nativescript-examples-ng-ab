@@ -1,0 +1,28 @@
+{
+  "ProjectName": "Nativescript Samples",
+  "ProjectGuid": "00e3f108-c031-47e3-a78c-32ba72e9c92f",
+  "projectVersion": 1,
+  "AppIdentifier": "com.telerik.NativescriptSamples",
+  "DisplayName": "Nativescript Samples",
+  "Author": "",
+  "Description": "Nativescript Samples",
+  "BundleVersion": "1.0",
+  "AndroidVersionCode": "1",
+  "iOSDeviceFamily": [
+    "1",
+    "2"
+  ],
+  "iOSBackgroundMode": [],
+  "ProjectTypeGuids": "{F0A65104-D4F4-4012-B799-F612D75820F6}",
+  "AndroidPermissions": [
+    "android.permission.INTERNET"
+  ],
+  "DeviceOrientations": [
+    "Portrait",
+    "Landscape"
+  ],
+  "AndroidHardwareAcceleration": "true",
+  "iOSStatusBarStyle": "Default",
+  "FrameworkVersion": "2.2.0",
+  "Framework": "NativeScript"
+}
